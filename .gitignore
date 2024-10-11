@@ -2,3 +2,4 @@
 *.zip
 /.idea
 *.exe
+.DS_Store

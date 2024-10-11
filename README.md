@@ -27,10 +27,11 @@ jwt前两端可以通过base64解码,[网站](https://jwt.io/)
 + 注册账号,打开[kimiplu]([https://kimi.moonshot.cn/kimiplus-square)任意类型的chat,如我测试的使用的小红书生成,
 + 打开浏览器调试工具
 + 随意发送一个内容
-+ 此时浏览器地址`https://kimi.moonshot.cn/chat/cs4i0im65raal8e0e93g`, `cs4i0im65raal8e0e93g`即是chat_id,生成的内容都是在这个对话里面,网站上会有历史记录
-+ **开发者工具中** 打开xhr过滤,也可以不打开,找到**refresh**链接,打开**预览或者响应**,里面是jwt_access, jwt_refresh,写入配置文件即可
++ 此时浏览器地址`https://kimi.moonshot.cn/chat/cs4i0im65raal8e0e93g`, `cs4i0im65raal8e0e93g`即是chat_id,**写入配置文件**即可
++ 生成的内容都是在这个对话里面,在官方网站上会有历史记录(有个list可以获取全部历史信息)
++ **开发者工具中** 打开xhr过滤,也可以不打开,找到**refresh**链接,打开**预览或者响应**,里面是jwt_access, jwt_refresh,**写入配置文件**即可
   [![pAYtai4.png](https://s21.ax1x.com/2024/10/12/pAYtai4.png)](https://imgse.com/i/pAYtai4)
-+ **开发者工具中** 打开xhr过滤,也可以不打开,找到**stream**链接,打开载荷,里面是kimiplus_id,写入配置文件即可
++ **开发者工具中** 打开xhr过滤,也可以不打开,找到**stream**链接,打开载荷,里面是kimiplus_id,**写入配置文件**即可
   [![pAYtwW9.png](https://s21.ax1x.com/2024/10/12/pAYtwW9.png)](https://imgse.com/i/pAYtwW9)
 
 ### 运行结果
