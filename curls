@@ -1,0 +1,78 @@
+#生成会话
+curl 'https://kimi.moonshot.cn/api/chat' \
+  -H 'accept: */*' \
+  -H 'accept-language: zh-CN,zh;q=0.9' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTcyODY1MTQxNywiaWF0IjoxNzI4NjUwNTE3LCJqdGkiOiJjczRocTVlbTFmMDliNG0xaGwxZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJzdWIiOiJjczRocTVlbTFmMDliNG0xaGwxMCIsInNwYWNlX2lkIjoiY3M0aHE1ZW0xZjA5YjRtMWhsMDAiLCJhYnN0cmFjdF91c2VyX2lkIjoiY3M0aHE1ZW0xZjA5YjRtMWhrdmciLCJkZXZpY2VfaWQiOiI3NDI0NDk2ODk5ODU3ODA4Mzk2In0.bjrtc6JD0NZ1TzdFtWGkMABYZ7KLviKUPe2bIHEX0rFRIh_EzmTaJ376BLRgj4KmIrP6jJxtC7uYGnFakyBFjQ' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1728650392; HMACCOUNT=A3DE895C39B3CD48; _gcl_au=1.1.1491574687.1728650394; _ga=GA1.1.1839829915.1728650394; Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1728651306; _ga_YXD8W70SZP=GS1.1.1728650394.1.1.1728651326.0.0.0' \
+  -H 'origin: https://kimi.moonshot.cn' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'r-timezone: Asia/Shanghai' \
+  -H 'referer: https://kimi.moonshot.cn/kimiplus/conpdi8t7lag4rq67pqg' \
+  -H 'sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36' \
+  -H 'x-msh-device-id: 7424496899857808396' \
+  -H 'x-msh-platform: web' \
+  -H 'x-traffic-id: cs4hq5em1f09b4m1hl10' \
+  --data-raw '{"name":"未命名会话","is_example":false,"kimiplus_id":"conpdi8t7lag4rq67pqg","kimiplus_name":"小红书爆款生成器","enter_from":"bot_detail_new_conversation"}'
+#获取内容
+curl 'https://kimi.moonshot.cn/api/chat/cs4i0im65raal8e0e93g/completion/stream' \
+  -H 'accept: */*' \
+  -H 'accept-language: zh-CN,zh;q=0.9' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTcyODY1NjE1MSwiaWF0IjoxNzI4NjU1MjUxLCJqdGkiOiJjczRpdjR2MWVkM2VjbzRpa2ZmMCIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJzdWIiOiJjczRocTVlbTFmMDliNG0xaGwxMCIsInNwYWNlX2lkIjoiY3M0aHE1ZW0xZjA5YjRtMWhsMDAiLCJhYnN0cmFjdF91c2VyX2lkIjoiY3M0aHE1ZW0xZjA5YjRtMWhrdmcifQ.y_n_CEkOzYSQZDefwficuJnGays8Vu1gAkmsabUNzLso_PUWSDiQjliTeAQUfgYLp1-hpwsVgc7wf_3FP5LSiQ' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'cookie: Hm_lvt_358cae4815e85d48f7e8ab7f3680a74b=1728650392; HMACCOUNT=A3DE895C39B3CD48; _gcl_au=1.1.1491574687.1728650394; _ga=GA1.1.1839829915.1728650394; Hm_lpvt_358cae4815e85d48f7e8ab7f3680a74b=1728655249; _ga_YXD8W70SZP=GS1.1.1728654283.2.1.1728655250.0.0.0' \
+  -H 'origin: https://kimi.moonshot.cn' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'r-timezone: Asia/Shanghai' \
+  -H 'referer: https://kimi.moonshot.cn/chat/cs4i0im65raal8e0e93g' \
+  -H 'sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36' \
+  -H 'x-msh-device-id: 7424496899857808396' \
+  -H 'x-msh-platform: web' \
+  -H 'x-traffic-id: cs4hq5em1f09b4m1hl10' \
+  --data-raw '{"messages":[{"role":"user","content":"肌肉"}],"use_search":true,"extend":{"sidebar":true},"kimiplus_id":"conpdi8t7lag4rq67pqg","use_research":false,"refs":[]}'
+#刷新jwt-token
+curl 'https://kimi.moonshot.cn/api/auth/token/refresh' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: zh-CN,zh;q=0.9' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTczNjQyNzk5NiwiaWF0IjoxNzI4NjUxOTk2LCJqdGkiOiJjczRpNW40cm1lZTA1MnFscW5yZyIsInR5cCI6InJlZnJlc2giLCJhcHBfaWQiOiJraW1pIiwic3ViIjoiY3M0aHE1ZW0xZjA5YjRtMWhsMTAiLCJzcGFjZV9pZCI6ImNzNGhxNWVtMWYwOWI0bTFobDAwIiwiYWJzdHJhY3RfdXNlcl9pZCI6ImNzNGhxNWVtMWYwOWI0bTFoa3ZnIn0.Xp_9d4ky86a0oi7NF272I__EbbuNI0sJCJ5GL-VcXtmti5xO_M7ZBfKSC4wY19NJtL8HNojxBzOUR4foV-Hrww' \
+  -H 'referer: https://kimi.moonshot.cn/chat' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36'
+
+curl 'https://kimi.moonshot.cn/api/chat/cs4i0im65raal8e0e93g/completion/stream' \
+  -H 'accept: */*' \
+  -H 'accept-language: zh-CN,zh;q=0.9' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1c2VyLWNlbnRlciIsImV4cCI6MTcyODY1NTE4NiwiaWF0IjoxNzI4NjU0Mjg2LCJqdGkiOiJjczRpbmpnZDRuMXJnb2p2bTZuZyIsInR5cCI6ImFjY2VzcyIsImFwcF9pZCI6ImtpbWkiLCJzdWIiOiJjczRocTVlbTFmMDliNG0xaGwxMCIsInNwYWNlX2lkIjoiY3M0aHE1ZW0xZjA5YjRtMWhsMDAiLCJhYnN0cmFjdF91c2VyX2lkIjoiY3M0aHE1ZW0xZjA5YjRtMWhrdmcifQ.I1kMB3neaZEpIyCbpcHx3H9-yXAffRA5zG-CRabfR9MrZK9czwUsO4Ho0CFPoq_KZBsTXXmZXycTc3QQITH6Xw' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'origin: https://kimi.moonshot.cn' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'r-timezone: Asia/Shanghai' \
+  -H 'referer: https://kimi.moonshot.cn/chat/cs4i0im65raal8e0e93g' \
+  -H 'sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36' \
+  -H 'x-msh-device-id: 7424496899857808396' \
+  -H 'x-msh-platform: web' \
+  -H 'x-traffic-id: cs4hq5em1f09b4m1hl10' \
+  --data-raw '{"messages":[{"role":"user","content":"香菇 肌肉"}],"use_search":true,"extend":{"sidebar":true},"kimiplus_id":"conpdi8t7lag4rq67pqg","use_research":false,"refs":[]}'
